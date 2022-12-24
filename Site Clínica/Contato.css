@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(241, 149, 149);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header {
+    background-color:#595757;
+    min-height: 150px;
+    text-align: justify;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20p;
+    text-align: center;
+}

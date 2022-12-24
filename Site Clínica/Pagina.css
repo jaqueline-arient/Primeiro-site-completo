@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(241, 149, 149);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 149, 151);
+    padding: 10px 20px 0px;
+    text-align: justify
+    
+}
+
+.header {
+    background-color: #FDCABD;
+    min-height: 150px;
+    text-align: center
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20p;
+    text-align: center;
+}
+.footer {
+    background-color: #F3F0E0;
+    min-height: 150px;
+    text-align: center
+}
